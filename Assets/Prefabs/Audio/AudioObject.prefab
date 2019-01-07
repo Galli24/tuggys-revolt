@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1248756628996852}
+  m_IsPrefabParent: 1
+--- !u!1 &1032713614805418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4473219274712816}
+  - component: {fileID: 81540283448170564}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1248756628996852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4081837383287176}
+  - component: {fileID: 114456085312714580}
+  - component: {fileID: 114510154700683580}
+  - component: {fileID: 114741683327555176}
+  m_Layer: 0
+  m_Name: AudioObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4081837383287176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248756628996852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4473219274712816}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4473219274712816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032713614805418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4081837383287176}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &81540283448170564
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032713614805418}
+  m_Enabled: 1
+--- !u!114 &114456085312714580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248756628996852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd57d0187973774898854c307a16630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114510154700683580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248756628996852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622bf788b71432141a86d9441edbc00b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainTheme: {fileID: 0}
+  menuTheme: {fileID: 8300000, guid: 23b903c111cf0bd4a943b7f30ce5a219, type: 3}
+--- !u!114 &114741683327555176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248756628996852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc13aea4feecbae47af81a1d5c197e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: pig_die
+    group:
+    - {fileID: 8300000, guid: 5dc306467447a374782eb53f08eb0797, type: 3}
+  - groupID: pig_hit
+    group:
+    - {fileID: 8300000, guid: 91460c4713997eb479e2c56da062b221, type: 3}
+  - groupID: dark_poule
+    group:
+    - {fileID: 8300000, guid: fe7142018b001244eaca3ebacdc4e23e, type: 3}
+  - groupID: squirrel_feedback
+    group:
+    - {fileID: 8300000, guid: c83922ed69d1ad44687b82d6f2bcb893, type: 3}
+  - groupID: pig_die_feedack
+    group:
+    - {fileID: 8300000, guid: b487a9449a661b24fadfd2effe784389, type: 3}
+  - groupID: hallemand
+    group:
+    - {fileID: 8300000, guid: 074f278613f021045b5a6037ab461854, type: 3}
+  - groupID: le_vieux
+    group:
+    - {fileID: 8300000, guid: f6e00cba39566ee4ebc1871e26e68337, type: 3}
+  - groupID: poule_dark
+    group:
+    - {fileID: 8300000, guid: a6de4792b9879f643814220f5257b4da, type: 3}
+  - groupID: poule_kevin
+    group:
+    - {fileID: 8300000, guid: 2d9c65ea6dc197d4cad4d10e0671155b, type: 3}
+  - groupID: squeelie
+    group:
+    - {fileID: 8300000, guid: 6d128ad6ebcf37e42be9624cde48a430, type: 3}
+  - groupID: tuto_camera
+    group:
+    - {fileID: 8300000, guid: 37af83e5825649f43b956a3601c3b842, type: 3}
+  - groupID: tuto_combat
+    group:
+    - {fileID: 8300000, guid: 260deda74f2e0784ab46887c054e0281, type: 3}
+  - groupID: tuto_deplacement
+    group:
+    - {fileID: 8300000, guid: b000c1427b059094082360f3b5e0fce0, type: 3}
+  - groupID: tuto_tracteur
+    group:
+    - {fileID: 8300000, guid: 020bc97be250c1d48bbe2954b282f41d, type: 3}
+  - groupID: tuto_pont_bois
+    group:
+    - {fileID: 8300000, guid: c82ba8075d8241a4aa5ade5158503a03, type: 3}
+  - groupID: choupi
+    group:
+    - {fileID: 8300000, guid: e9564eb72c3dc694caa066fa9e184e46, type: 3}
+  - groupID: tuto_saut
+    group:
+    - {fileID: 8300000, guid: 1ae12ff7704ed5f4db39d346913d682e, type: 3}
+  - groupID: tir
+    group:
+    - {fileID: 8300000, guid: 709c95bf7a4fff543803c5dfa7834075, type: 3}
+  - groupID: pickup
+    group:
+    - {fileID: 8300000, guid: 9914f9a082cfc3e4e82092d8cc3fe9d5, type: 3}

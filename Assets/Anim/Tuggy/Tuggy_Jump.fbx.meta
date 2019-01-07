@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: c0e81887cb307624b891f0abb380690b
+timeCreated: 1490261074
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base Mesh
+    100002: Chest_CTRL
+    100004: Head
+    100006: Head_CTRL
+    100008: Head_Head
+    100010: Hip_CTRL
+    100012: Hips
+    100014: L_Arm_01
+    100016: L_Arm_02
+    100018: L_Arm_CTRL
+    100020: L_Arm_IK
+    100022: L_Collar
+    100024: L_Foot
+    100026: L_Hand_01
+    100028: L_Hand_02
+    100030: L_Leg_01
+    100032: L_Leg_02
+    100034: L_Leg_03
+    100036: L_Leg_CTRL
+    100038: L_Leg_IK
+    100040: L_Toe
+    100042: Main_CTRL
+    100044: Neck
+    100046: R_Arm_01
+    100048: R_Arm_02
+    100050: R_Arm_CTRL
+    100052: R_Arm_IK
+    100054: R_Collar
+    100056: R_Foot
+    100058: R_Hand_01
+    100060: R_Hand_02
+    100062: R_Leg_01
+    100064: R_Leg_02
+    100066: R_Leg_03
+    100068: R_Leg_CTRL
+    100070: R_Leg_IK
+    100072: R_Toe
+    100074: Spine_01
+    100076: Spine_02
+    100078: Spine_03
+    100080: Spine_04
+    100082: Spine_IK
+    100084: Spine_IK_curve
+    100086: //RootNode
+    400000: Base Mesh
+    400002: Chest_CTRL
+    400004: Head
+    400006: Head_CTRL
+    400008: Head_Head
+    400010: Hip_CTRL
+    400012: Hips
+    400014: L_Arm_01
+    400016: L_Arm_02
+    400018: L_Arm_CTRL
+    400020: L_Arm_IK
+    400022: L_Collar
+    400024: L_Foot
+    400026: L_Hand_01
+    400028: L_Hand_02
+    400030: L_Leg_01
+    400032: L_Leg_02
+    400034: L_Leg_03
+    400036: L_Leg_CTRL
+    400038: L_Leg_IK
+    400040: L_Toe
+    400042: Main_CTRL
+    400044: Neck
+    400046: R_Arm_01
+    400048: R_Arm_02
+    400050: R_Arm_CTRL
+    400052: R_Arm_IK
+    400054: R_Collar
+    400056: R_Foot
+    400058: R_Hand_01
+    400060: R_Hand_02
+    400062: R_Leg_01
+    400064: R_Leg_02
+    400066: R_Leg_03
+    400068: R_Leg_CTRL
+    400070: R_Leg_IK
+    400072: R_Toe
+    400074: Spine_01
+    400076: Spine_02
+    400078: Spine_03
+    400080: Spine_04
+    400082: Spine_IK
+    400084: Spine_IK_curve
+    400086: //RootNode
+    4300000: Base Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Base Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Mesh
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/L_Leg_01
+        weight: 1
+      - path: Hips/L_Leg_01/L_Leg_02
+        weight: 1
+      - path: Hips/L_Leg_01/L_Leg_02/L_Leg_03
+        weight: 1
+      - path: Hips/L_Leg_01/L_Leg_02/L_Leg_03/L_Foot
+        weight: 1
+      - path: Hips/L_Leg_01/L_Leg_02/L_Leg_03/L_Foot/L_Toe
+        weight: 1
+      - path: Hips/R_Leg_01
+        weight: 1
+      - path: Hips/R_Leg_01/R_Leg_02
+        weight: 1
+      - path: Hips/R_Leg_01/R_Leg_02/R_Leg_03
+        weight: 1
+      - path: Hips/R_Leg_01/R_Leg_02/R_Leg_03/R_Foot
+        weight: 1
+      - path: Hips/R_Leg_01/R_Leg_02/R_Leg_03/R_Foot/R_Toe
+        weight: 1
+      - path: Hips/Spine_01
+        weight: 1
+      - path: Hips/Spine_01/Spine_02
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/L_Collar
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/L_Collar/L_Arm_01
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/L_Collar/L_Arm_01/L_Arm_02
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/L_Collar/L_Arm_01/L_Arm_02/L_Hand_01
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/L_Collar/L_Arm_01/L_Arm_02/L_Hand_01/L_Hand_02
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/Neck
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/Neck/Head
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/Neck/Head/Head_Head
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/R_Collar
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/R_Collar/R_Arm_01
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/R_Collar/R_Arm_01/R_Arm_02
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/R_Collar/R_Arm_01/R_Arm_02/R_Hand_01
+        weight: 1
+      - path: Hips/Spine_01/Spine_02/Spine_03/Spine_04/R_Collar/R_Arm_01/R_Arm_02/R_Hand_01/R_Hand_02
+        weight: 1
+      - path: L_Arm_IK
+        weight: 1
+      - path: L_Leg_IK
+        weight: 1
+      - path: Main_CTRL
+        weight: 1
+      - path: Main_CTRL/Head_CTRL
+        weight: 1
+      - path: Main_CTRL/Hip_CTRL
+        weight: 1
+      - path: Main_CTRL/Hip_CTRL/Chest_CTRL
+        weight: 1
+      - path: Main_CTRL/Hip_CTRL/Chest_CTRL/L_Arm_CTRL
+        weight: 1
+      - path: Main_CTRL/Hip_CTRL/Chest_CTRL/R_Arm_CTRL
+        weight: 1
+      - path: Main_CTRL/L_Leg_CTRL
+        weight: 1
+      - path: Main_CTRL/R_Leg_CTRL
+        weight: 1
+      - path: R_Arm_IK
+        weight: 1
+      - path: R_Leg_IK
+        weight: 1
+      - path: Spine_IK
+        weight: 1
+      - path: Spine_IK_curve
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

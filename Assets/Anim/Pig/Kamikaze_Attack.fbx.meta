@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 94123a98e2b3ba34281c9ba0869e190e
+timeCreated: 1490293577
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base Mesh
+    100002: group
+    100004: //RootNode
+    100006: pasted__Chest_CTRL
+    100008: pasted__Head
+    100010: pasted__Head_CTRL
+    100012: pasted__Head_Head
+    100014: pasted__Hip_CTRL
+    100016: pasted__Hips
+    100018: pasted__L_Arm_01
+    100020: pasted__L_Arm_02
+    100022: pasted__L_Arm_CTRL
+    100024: pasted__L_Arm_IK
+    100026: pasted__L_Collar
+    100028: pasted__L_Foot
+    100030: pasted__L_Hand_01
+    100032: pasted__L_Hand_02
+    100034: pasted__L_Leg_01
+    100036: pasted__L_Leg_02
+    100038: pasted__L_Leg_03
+    100040: pasted__L_Leg_CTRL
+    100042: pasted__L_Leg_IK
+    100044: pasted__L_Toe
+    100046: pasted__Main_CTRL
+    100048: pasted__Neck
+    100050: pasted__R_Arm_01
+    100052: pasted__R_Arm_02
+    100054: pasted__R_Arm_CTRL
+    100056: pasted__R_Arm_IK
+    100058: pasted__R_Collar
+    100060: pasted__R_Foot
+    100062: pasted__R_Hand_01
+    100064: pasted__R_Hand_02
+    100066: pasted__R_Leg_01
+    100068: pasted__R_Leg_02
+    100070: pasted__R_Leg_03
+    100072: pasted__R_Leg_CTRL
+    100074: pasted__R_Leg_IK
+    100076: pasted__R_Toe
+    100078: pasted__Spine_01
+    100080: pasted__Spine_02
+    100082: pasted__Spine_03
+    100084: pasted__Spine_04
+    100086: pasted__Spine_IK
+    100088: pasted__Spine_IK_curve
+    400000: Base Mesh
+    400002: group
+    400004: //RootNode
+    400006: pasted__Chest_CTRL
+    400008: pasted__Head
+    400010: pasted__Head_CTRL
+    400012: pasted__Head_Head
+    400014: pasted__Hip_CTRL
+    400016: pasted__Hips
+    400018: pasted__L_Arm_01
+    400020: pasted__L_Arm_02
+    400022: pasted__L_Arm_CTRL
+    400024: pasted__L_Arm_IK
+    400026: pasted__L_Collar
+    400028: pasted__L_Foot
+    400030: pasted__L_Hand_01
+    400032: pasted__L_Hand_02
+    400034: pasted__L_Leg_01
+    400036: pasted__L_Leg_02
+    400038: pasted__L_Leg_03
+    400040: pasted__L_Leg_CTRL
+    400042: pasted__L_Leg_IK
+    400044: pasted__L_Toe
+    400046: pasted__Main_CTRL
+    400048: pasted__Neck
+    400050: pasted__R_Arm_01
+    400052: pasted__R_Arm_02
+    400054: pasted__R_Arm_CTRL
+    400056: pasted__R_Arm_IK
+    400058: pasted__R_Collar
+    400060: pasted__R_Foot
+    400062: pasted__R_Hand_01
+    400064: pasted__R_Hand_02
+    400066: pasted__R_Leg_01
+    400068: pasted__R_Leg_02
+    400070: pasted__R_Leg_03
+    400072: pasted__R_Leg_CTRL
+    400074: pasted__R_Leg_IK
+    400076: pasted__R_Toe
+    400078: pasted__Spine_01
+    400080: pasted__Spine_02
+    400082: pasted__Spine_03
+    400084: pasted__Spine_04
+    400086: pasted__Spine_IK
+    400088: pasted__Spine_IK_curve
+    4300000: Base Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Base Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
